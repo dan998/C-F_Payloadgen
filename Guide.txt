@@ -1,0 +1,54 @@
+.........................
+#Name: C-F_Payloadgen
+.........................
+#Coding family = A team that work together to accomplish anything the want.
+#Language: Aymara - Perú 
+.........................
+#Saturday 20/11/2021
+#By: Coding family / cf
+........................
+
+OPTIONS:
+
+[1] This tool extracts url from websites like http and https
+[2] Shows website status
+[3] It has a pad to add websites
+[4] Generate functional payload of websites / host
+[5] Show the ports that are open in web services / IP / proxy
+ - Put a comma after each port, example: 22,53,443,80,8080
+[6] View proxy or information from a website or IP
+[7] How to use the host-extractor-v2.sh script
+[8] A message from me to the public
+[0] Exit menu 0 and 0 exit the menu in Spanish
+[98] Change the language to English
+[99] Change the language to Spanish
+
+[xx.xx] Secret menu :)
+
+
+
+DATA:
+
+TELEGRAM CHANNEL:
+
+https://t.me/dofsquad
+
+GRUPO TELEGRAM:
+
+https://t.me/
+
+YOUTUBE CHANNEL:
+
+https://youtube.com/
+
+FACEBOOK GROUP:
+
+https://m.facebook.com/
+
+CHANNEL FACEBOOK
+
+https://m.facebook.com/
+
+
+
+PRESS AN ENTER TO CONTINUE ...0a
