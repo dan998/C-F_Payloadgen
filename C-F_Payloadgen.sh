@@ -55,7 +55,7 @@ echo -e "\e[1;36mHOST: \e[0m";
 cat>lista-host.txt
 ;;
 4)clear
-bash .payloads.ingles
+bash .payload
 read foo;
 ;;
 5)echo ""
