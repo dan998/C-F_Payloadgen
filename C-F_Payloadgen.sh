@@ -34,7 +34,7 @@ case $opcion in
 1)echo ""
 echo -n "HOST: ";
 read HOST;
-bash .host checker.sh $HOST
+bash .scan.sh $HOST
 echo ""
 echo -e "\e[0m";
 echo -e "\e[1;31mpress enter to continue with the script...!\e[0m";
