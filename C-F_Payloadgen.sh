@@ -1,7 +1,7 @@
 #!bin/bash
 #!bin/bash
-#Created: 13/11/2018
-#Upgrade 12/01/2019
+#Created: 20/11/2021
+#Upgrade 20/11/2021
 #by: C-F_Payloadgen
 #Successful update
 #MESSAGE: Never stop learning, if you are here is out of curiosity and try to learn shell or bash with the help of google search among others and so you will have more ease of course take time but you will learn even if editing so never say you can't code, Coding is fun
@@ -107,12 +107,12 @@ read foo;
 98)clear
 echo "translating to english language...";
 sleep 3
-bash real-host-v2.sh
+bash C-F_Payloadgen.sh
 ;;
 99)clear
 echo "Translating to spanish language...";
 sleep  3
-bash .real-host.sh
+bash .C-F_Payloadgen.sh
 ;;
 #Fin del menu/in the end
 0)clear
