@@ -86,6 +86,34 @@ echo "GET http://$host[crlf] HTTP/1.1[crlf]Host: $host[crlf]User-Agent: [ua][crl
 echo ""
 echo "CONNECT [host_port][protocol][crlf][delay_split]GET http://$host/ HTTP/1.1[crlf]Host: $host[crlf]Connection: Keep-Alive[crlf]x-amz-id-2: +bnliBcDYxWL++PEO8kRY18ng+fHsuiIINYg/e8YrGUJLYLK3RJ6ko7OUiYCMNIiWMzHPmTYUrE=[crlf]User-Agent: [ua][crlf][crlf][split][raw]"
 echo ""
-echo CONNECT [host_port]@$host [protocol][crlf]Host: $host[crlf]X-Online-Host: $host[crlf]X-Forward-Host: $host[crlf]X-Forwarded-For: $host[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]CONNECT [host_port] [protocol][crlf][crlf]"
+echo "CONNECT [host_port]@$host [protocol][crlf]Host: $host[crlf]X-Online-Host: $host[crlf]X-Forward-Host: $host[crlf]X-Forwarded-For: $host[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]CONNECT [host_port] [protocol][crlf][crlf]"
 echo ""
-echo "GET http://[rotate=$host;$host;$host]/ HTTP/1.1[crlf]Host: [rotate=$host;$host;$host][crlf]X-Online-Host: [rotate=$host;$host;$host][crlf]X-Forwarded-For: [rotate=$host;$host;$host=][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Referer: [][crlf][crlf][delay_split]CONNECT [host_port] [protocol][crlf][crlf]"
+echo "GET http://[rotate=host;host;host]/ HTTP/1.1[crlf]Host: [rotate=host;host;host][crlf]X-Online-Host: [rotate=host;host;host][crlf]X-Forwarded-For: [rotate=host;host;host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Referer:$host [][crlf][crlf][delay_split]CONNECT [host_port] [protocol][crlf][crlf]"
+echo ""
+echo "GET wss://cloudfare host/ HTTP/1.1[crlf]Host: websocket server host[crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf][crlf]"
+echo ""
+echo "HEAD phc://il.upou.edu.ph/?dest_url=http://www.globe.com.ph HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade, Keep-Alive, HTTP2-Settings > Upgrade: h2c [crlf]User-Agent: [ua][crlf]Upgrade: phc, HTTP/2, HTTP/3[crlf][crlf]"
+echo ""
+echo "GET / HTTP/1.1[crlf]Host: [host][crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]"
+echo ""
+echo "CONNECT [host_port] HTTP/1.1[crlf]
+Host: [crlf]
+[crlf]
+CONNECT host@[host_port] HTTP/1.1[crlf]
+Host: host.com[crlf]
+X-Online-Host: host.com[crlf]
+X-Forward-Host: host.com[crlf]
+Connection: Keep-Alive[crlf]
+User-Agent: [ua][crlf]
+[crlf]"
+echo ""
+echo "GET http://freehost.com HTTP/1.2 
+X-Requested-With: request host
+host: 
+Connection: keep-alive
+X-Online-Host: host.com 
+X-Forward-Host:host.com
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-gb) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/2.9174AP//
+
+CONNECT 68.183.17.253: 443/ HTTP-BUG\r
+\r"
