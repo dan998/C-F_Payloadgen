@@ -4,4 +4,4 @@ echo -e "\e[1;32m"
 while read LINE; do
   curl -o /dev/null --silent --head --write-out '%{http_code}' "$LINE"
   echo ' '$LINE
-done < list-of-host.txt
+done < lista-host.txt
