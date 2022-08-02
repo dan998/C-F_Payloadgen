@@ -26,7 +26,9 @@ echo -e "\e[1;31m[8]\e[1;32m MESSAGE FROM THE CREATOR"
 echo -e "\e[1;31m[0]\e[1;32m EXIT C-F_Payloadgen"
 echo ""
 echo -e "\e[1;36m"
-echo -n "Select option tobe serve:"
+echo'
+echo -e "\e[1;36m"
+echo -n "Choose option: "
 read opcion
 #lista de menu
 echo -e "\e[0m"
