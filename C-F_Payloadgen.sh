@@ -1,5 +1,4 @@
 #!bin/bash
-#!bin/bash
 #Created: 20/11/2021
 #Upgrade 20/11/2021
 #by: C-F_Payloadgen
@@ -57,7 +56,7 @@ echo -e "\e[1;36mHOST: \e[0m";
 cat>lista-host.txt
 ;;
 4)clear
-bash .payload
+bash .payloads.ingles
 read foo;
 ;;
 5)echo ""
