@@ -1,5 +1,5 @@
 .........................
-#Name: C-F_Payloadgen
+#Name: Coding family playload Generator
 .........................
 #Coding family = A team that work together to accomplish anything the want.
 #Language: Aymara - Perú 
@@ -31,7 +31,7 @@ DATA:
 
 TELEGRAM CHANNEL:
 
-https://t.me/CyberTechBlackhack
+https://t.me/dofsquad
 
 GRUPO TELEGRAM:
 
@@ -41,9 +41,13 @@ YOUTUBE CHANNEL:
 
 https://youtube.com/
 
-WHATSAPP CHAANNEL:
+FACEBOOK GROUP:
 
+https://m.facebook.com/
 
+CHANNEL FACEBOOK
+
+https://m.facebook.com/
 
 
 
