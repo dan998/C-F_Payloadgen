@@ -1,7 +1,7 @@
 #!bin/bash
 #Created: 20/11/2021
 #Upgrade 20/11/2021
-#by: C-F_Payloadgen
+#by: Dan Maffia
 #Successful update
 #MESSAGE: Never stop learning, if you are here>
 clear
